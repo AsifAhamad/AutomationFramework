@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Task - OTP Verification Scenarios">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="getSimpl.testScenarios.OTPVerificationSuccessScenario"/>
+      <class name="getSimpl.testScenarios.OTPVerificationFailureScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
