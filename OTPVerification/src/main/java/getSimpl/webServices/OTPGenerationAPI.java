@@ -15,7 +15,7 @@ public class OTPGenerationAPI extends Base{
  
     	//Headers are stored in Map container to pass it to the G
         Map<String,Object> headerMap = new HashMap<String,Object>();
-        headerMap.put("X-API-KEY", "key-e5ac2dbfec27d8bd50ada417fb0f7b3d");
+        headerMap.put("X-API-KEY", "key-tobeplaced");
         headerMap.put("Content-Type", "application/json");
         Response response = RestAssured.given()
             .baseUri("https://unicornsimpl.com")
